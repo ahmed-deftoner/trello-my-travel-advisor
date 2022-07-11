@@ -1,9 +1,9 @@
 
-const PlaceDetails = () => {
+const PlaceDetails = ({place}) => {
 
   return (
     <div>
-      <h1>details</h1>
+      <h1>{place.name}</h1>
     </div>
   );
 }

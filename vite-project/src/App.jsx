@@ -18,9 +18,9 @@ const App = () => {
           <List/>
         </Grid>
         <Grid item xs={12} md={8} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <Map
+          {/*<Map
              coords={coords}
-          />
+          />*/}
         </Grid>
       </Grid>
      </>
